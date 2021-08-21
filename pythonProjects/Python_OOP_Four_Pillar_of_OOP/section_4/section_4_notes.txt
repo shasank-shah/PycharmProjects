@@ -1,0 +1,26 @@
+1. What is an attribute?
+    - An attribute is a property that further defines a class
+
+2. What is a mehhod?
+    - A method is a function within a class and can access all the attributes of a class and perform a specific action
+
+3. What is a class attribute?
+    - Class attributes are attributes that are shared across all instance of a class
+    - They are crated either as part of the class or by using className.attributeName
+
+4. What is a instance attribute?
+    - These attributes are specific to each instance of a class.
+    - They are created using objectName.attributeName
+
+5. How is self parameter handled?
+    - The method call objectName.methodName is interpreted as className.methodName(objectName) and this parameter is referred to as 'self' in method definition.
+
+6. what is an instance method?
+    - Method that has the default parameter as the object are static methods. They are used to modify the instance attributes of a class.
+
+7. What is a static method?
+    - Methods that do not modify the instance attributes of a class are called instance methods. They can still be used to modify class attributes.
+
+8. What is init() method()?
+    - This is a special method and it is invoked when object is created.
+    - All the attributes of the class should be initialize in this method in order to make object fully initialized object.
